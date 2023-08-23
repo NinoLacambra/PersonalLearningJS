@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: azure;
+    padding: 25px 60px;
+}
+
+.cart{
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.cartamount{
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: -20px;
+    right: -12px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.shop{
+    
+}
